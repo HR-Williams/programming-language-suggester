@@ -25,21 +25,11 @@ $(document).ready(function() {
     if (language === "ruby") {
       $("#answer").text("Ruby");
     } else if (language === "go") {
-      $("answer").text("Go");
+      $("#answer").text("Go");
     } else {
       $("#answer").text(
         "Swift");
-      )
     }
-    )
-    
-    
-    )
-    
-    
-    )
-    
-    
-    ))
-  })
-})
+
+  });
+});
