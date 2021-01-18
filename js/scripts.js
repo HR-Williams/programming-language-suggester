@@ -8,18 +8,18 @@ function results(input1, input2, input3, input4, input5) {
   } else {
     langage = "swift";
   }
-    return language;
+  return language;
 }
 
 $(document).ready(function() {
   $("form#languageQuiz").submit(function() {
     event.preventDefault();
 
-    const syntax = parseInt($("#syntax").val();
-    const software = parseInt($("#software").val();
-    const employer = parseInt($("#employer").val();
-    const con = parseInt($("#con").val();
-    const bonus = parseInt($("#bonus").val();
+    const syntax = parseInt($("#syntax").val());
+    const software = parseInt($("#software").val());
+    const employer = parseInt($("#employer").val());
+    const con = parseInt($("#con").val());
+    const bonus = parseInt($("#bonus").val());
     let language = results(syntax, software, employer, con, bonus);
 
     if (language === "ruby") {
