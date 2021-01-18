@@ -6,7 +6,7 @@ function results(input1, input2, input3, input4, input5) {
   } else if (total <=10) {
     language = "go";
   } else {
-    langage = "swift";
+    language = "swift";
   }
   return language;
 }
@@ -23,10 +23,13 @@ $(document).ready(function() {
     let language = results(syntax, software, employer, con, bonus);
 
     if (language === "ruby") {
+      $("#output").show();
       $("#answer").text("Ruby");
     } else if (language === "go") {
+      $("#output").show();
       $("#answer").text("Go");
     } else {
+      $("#output").show();
       $("#answer").text(
         "Swift");
     }
