@@ -17,8 +17,8 @@ _This is an assignment for Epicodus Week 2 to demonstrate new skills in JavaScri
 
 ## Setup/Installation Requirements
 
-* _ clone this repository to your desktop_
-* _ navigate to the top level of the directory_
+* _clone this repository to your desktop_
+* _navigate to the top level of the directory_
 * _open index.html in web browser_
 
 
